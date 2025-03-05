@@ -2,9 +2,9 @@
 config global
 	option startup_delay '0'
 	option koolproxy_mode '3'
-	option koolproxy_port '1'
 	option koolproxy_acl_default '1'
 	option koolproxy_bp_port '80,443'
-	option enabled '1'
 	option koolproxy_rules 'kp.dat'
+	option enabled '1'
+	option koolproxy_port '0'
 
